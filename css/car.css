@@ -1,0 +1,139 @@
+
+body{
+    background-color: white;
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    
+}
+.container{
+    /* background-color: none; */
+    padding-top: 100px;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.left{
+    float: left;
+    width: 300px;
+    background-color: #f1973c;
+    
+    
+    border-left: 0px;
+    display: block;
+    height: 400px;
+    border-radius:.5em 0px 0px .5em;
+}
+.middle{
+    background-color: rgb(64, 142, 145);
+   
+    width: 300px;
+    
+    display: inline-block;
+    height: 400px;
+}
+
+.right{
+    background-color: rgb(21, 85, 85);
+    
+    width: 300px;
+    
+    display: inline-block;
+    margin: 0px;
+    height: 400px;
+    border-radius: 0px .5em .5em 0px;
+}
+
+p{
+    font-size: 15px;
+    padding: 50px;
+    padding-top: 0px;
+    padding-bottom: 60px;
+    text-align: left;
+    color: white 0px;
+    
+
+}
+
+.content{
+    opacity: 0.7;
+}
+
+
+h1{
+    padding: 50px;
+    padding-bottom: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+.header{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+a{
+    background-color: white;
+    text-decoration: none;
+    /* color: #f1973c; */
+    padding: .4em 1em;
+    width: 5%;
+    text-align: center;
+    border-radius: 2em;
+    font-size: 0.7em;
+    padding:10px 30Px;
+}
+
+.btn-left{
+    
+    color: #f1973c;
+    
+    
+}
+
+.btn-middle{
+   
+    color: rgb(64, 142, 145);   
+    
+}
+
+.btn-right{
+    
+    color:  rgb(21, 85, 85);;
+      
+    
+}
+
+a:hover{
+
+    color: white;
+    border: solid 2px #fff;
+
+}
+
+.right a:hover{
+    background-color: rgb(21, 85, 85);
+    
+}
+.middle a:hover{
+    background-color: rgb(64, 142, 145);
+
+}
+.left a:hover{
+    background-color: #f1973c;
+  
+}
+
+@media (max-width:600px){
+    .left{
+        border-radius:.5em .5em 0px 0px;
+    }
+    .right{
+        border-radius: 0px 0px .5em .5em;
+    }
+}
+
